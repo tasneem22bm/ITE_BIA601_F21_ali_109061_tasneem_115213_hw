@@ -1,0 +1,63 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <title>Genetic algorithm</title>
+</head>
+<body  style="padding: 0; margin: 0;font-family: 'Courier New', Courier, monospace;
+ padding-left: 32%;" >
+<div style=" width: 60%;height: 90%;background-color:cornflowerblue;display: flex;  justify-content: center;align-items: center;border-left: 1rem solid salmon;" >
+<h1>Genetic algorithm</h1>
+</div>
+<div style=" width: 60%;height: 90%;background-color:rgb(163, 189, 238);  text-align: center;border-right: 1rem solid salmon" >
+    <h3>مسالة حقيبة الضهر في بايثون</h3>
+    <P>ITE_BIA601_S21_HOMEWORK</P>
+    </div>
+    <div style=" width: 60%;height: 90%;background-color:rgba(202, 215, 233, 0.849); text-align: center;border-left: 1rem solid salmon;" >
+        
+       <table >
+        
+           <tr> <th>Item:</th><td>1</td> <td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td>
+           
+           </tr>
+           <tr> <th>Benefit:</th>
+            <td> <input type="text" name="ben1" id="ben1" style="width: 2rem;"> </td> <td><input type="text" name="ben2" id="ben2" style="width: 2rem;"></td>
+            <td><input type="text" name="ben3" id="ben3" style="width: 2rem;"></td><td><input type="text" name="ben4" id="ben4" style="width: 2rem;"></td>
+            <td><input type="text" name="ben5" id="ben5" style="width: 2rem;"></td><td><input type="text" name="ben6" id="ben6" style="width: 2rem;"></td>
+            <td><input type="text" name="ben7" id="ben7" style="width: 2rem;"></td>
+           </tr>
+           <tr> <th>Weight:</th>
+            <td> <input type="text" name="wei1" id="wei1" style="width: 2rem;"> </td> <td><input type="text" name="wei2" id="wei2" style="width: 2rem;"></td>
+            <td><input type="text" name="wei3" id="wei3" style="width: 2rem;"></td><td><input type="text" name="wei4" id="wei4" style="width: 2rem;"></td>
+            <td><input type="text" name="wei5" id="wei5" style="width: 2rem;"></td><td><input type="text" name="wei6" id="wei6" style="width: 2rem;"></td>
+            <td><input type="text" name="wei7" id="wei7" style="width: 2rem;"></td>
+           </tr>
+           <tr style="color:salmon;"> <th>§ Knapsack holds a maximum of 22 pounds</th></tr>
+           <tr style="color:salmon;"><th>§ Fill it to get the maximum benefit</th></tr>
+       </table>
+       <div style=" width: 60%;height: 90%;background-color:rgba(202, 215, 233, 0.849); text-align: center;border-left: 1rem solid salmon;">
+        <label> Knapsack holds a maximum of :</label><br>
+        <input type="text" name="" id="maximum" style="width: 2rem;">
+       </div>
+       <div style=" width: 60%;height: 90%;background-color:rgba(202, 215, 233, 0.849); text-align: center;border-left: 1rem solid salmon;">
+        <button id="submit"  style="width: 20rem;background-color:salmon;" >start algorithm >>></button>
+       </div>
+      
+    </div>
+    <div id="result" style=" width: 60%;height: 90%;background-color:rgba(202, 215, 233, 0.849); text-align: center;border-left: 1rem solid salmon;">
+        
+            
+       
+            
+     </div>
+     
+     {% load static %}
+<script src="{% static 'js/main.js' %}"></script>
+<!--<script src=" ../myapp/static/js/main.js"></script>-->
+</body>
+</html>
